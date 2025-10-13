@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thomas Gifford — Economics</title>
+  <meta name="description" content="Thomas Gifford — Ph.D. candidate in Economics at Colorado State University. Research: wildfires, tourism, EV adoption, energy policy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff; --text:#0f172a; --muted:#475569; --accent:#0ea5e9; --card:#f8fafc; --border:#e2e8f0;
+      --shadow: 0 6px 24px rgba(15,23,42,.06), 0 2px 8px rgba(15,23,42,.05);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0; padding:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--text); background:var(--bg);}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:900px; margin:0 auto; padding:24px}
+    header{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.9); backdrop-filter:saturate(180%) blur(10px); border-bottom:1px solid var(--border)}
+    nav{display:flex; align-items:center; justify-content:space-between; padding:10px 0}
+    .brand{font-weight:700; letter-spacing:.2px}
+    .navlinks{display:flex; gap:18px; flex-wrap:wrap}
+    .pill{display:inline-block; padding:8px 12px; border:1px solid var(--border); border-radius:999px; background:#fff}
+    main{padding-top:10px}
+    section{padding:40px 0}
+    .hero{display:grid; grid-template-columns: 1fr; gap:24px; align-items:center}
+    .tag{display:inline-block; background:var(--card); border:1px solid var(--border); padding:6px 10px; border-radius:999px; color:var(--muted); font-weight:600; font-size:.85rem}
+    h1{font-size:2rem; margin:.4rem 0}
+    h2{font-size:1.4rem; margin:0 0 .6rem}
+    p{line-height:1.7; color:var(--muted)}
+    .card{background:var(--card); border:1px solid var(--border); border-radius:16px; padding:20px; box-shadow:var(--shadow)}
+    .grid{display:grid; gap:18px}
+    @media(min-width:840px){ .hero{grid-template-columns: 1.2fr .8fr} }
+    .btn{display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid var(--border); background:#fff; font-weight:600}
+    .btn:hover{box-shadow:var(--shadow)}
+    .btn-row{display:flex; gap:12px; flex-wrap:wrap; margin-top:10px}
+    ul.clean{list-style:none; padding-left:0; margin:0}
+    ul.clean li{padding:10px 12px; border:1px solid var(--border); background:#fff; border-radius:12px; margin-bottom:10px}
+    footer{border-top:1px solid var(--border); padding:30px 0 60px; color:var(--muted)}
+    .small{font-size:.92rem}
+    .muted{color:var(--muted)}
+    .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0}
+  </style>
+</head>
+<body>
+  <a class="sr-only" href="#content">Skip to content</a>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">Thomas C. Gifford</div>
+        <div class="navlinks small">
+          <a href="#about" class="pill">About</a>
+          <a href="#research" class="pill">Research</a>
+          <a href="#media" class="pill">Media</a>
+          <a href="#contact" class="pill">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <!-- HERO / INTRO -->
+    <section class="hero">
+      <div>
+        <span class="tag">Ph.D. Candidate · Economics · Colorado State University</span>
+        <h1>Environmental & Energy Economics</h1>
+        <p class="muted">I study how policy design shapes behavior and environmental outcomes, with work on wildfires, tourism, and clean technology adoption.</p>
+        <div class="btn-row">
+          <!-- TODO: replace hrefs with your actual files/links -->
+          <a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+          <a class="btn" href="jmp.pdf" target="_blank" rel="noopener">Job Market Paper (PDF)</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="muted" style="margin-top:0">Quick Links</h2>
+        <ul class="clean small">
+          <li><strong>Google Scholar:</strong> <a href="#">add‑your‑link</a></li>
+          <li><strong>SSRN / IDEAS:</strong> <a href="#">add‑your‑link</a></li>
+          <li><strong>Download CV:</strong> <a href="cv.pdf" target="_blank" rel="noopener">cv.pdf</a></li>
+          <li><strong>JMP:</strong> <a href="jmp.pdf" target="_blank" rel="noopener">jmp.pdf</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="grid">
+        <div class="card">
+          <h2>About</h2>
+          <p>My name is Thomas Gifford (he/him) and I am a fifth‑year Ph.D. candidate in economics at Colorado State University. I’ve been studying economics for nearly a decade, first earning my B.A. in Economics from Colorado College (2018) and an M.A. in Economics from the University of Denver (2021). In addition to teaching at CSU, I work with the Center for the New Energy Economy (CNEE), where I help provide policymakers with research‑based insights to support an equitable and economically responsible transition to clean energy.</p>
+          <p>When I’m not studying economics, I’m usually exploring Colorado with my wife, Bobbi. Whether it’s hiking with our dog, Patches, biking around Fort Collins, or skiing at A‑Basin, I try to spend as much time outdoors as possible. We also love going to concerts and trying new restaurants whenever we get the chance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <div class="grid">
+        <div class="card">
+          <h2>Research</h2>
+          <p>My job market paper examines the economic impacts of wildfires on tourism spending in Colorado, as part of a broader agenda in environmental and energy economics. I also study electric‑vehicle adoption and public charging infrastructure, with an emphasis on how local access, commute behavior, and demographics shape clean‑technology diffusion.</p>
+          <div class="btn-row">
+            <a class="btn" href="jmp.pdf" target="_blank" rel="noopener">Read the Job Market Paper</a>
+            <a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media">
+      <div class="grid">
+        <div class="card">
+          <h2>Media Mentions</h2>
+          <p class="muted small">Add links below as they appear. Newest first is typical.</p>
+          <ul class="clean">
+            <li>
+              <strong>Outlet / Title (YYYY‑MM‑DD)</strong><br>
+              <a href="#">https://link‑to‑story.com</a>
+            </li>
+            <li>
+              <strong>Another Outlet / Title (YYYY‑MM‑DD)</strong><br>
+              <a href="#">https://another‑link.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="grid">
+        <div class="card">
+          <h2>Contact</h2>
+          <p class="small">Best way to reach me is by email. I’m happy to share draft work upon request.</p>
+          <ul class="clean">
+            <li><strong>Email:</strong> <a href="mailto:your.name@colostate.edu">your.name@colostate.edu</a></li>
+            <li><strong>Office / Dept:</strong> Department of Economics, Colorado State University</li>
+            <li><strong>City:</strong> Fort Collins, CO</li>
+          </ul>
+          <p class="muted small">Optional: You can swap the email above for a privacy‑friendly contact form (e.g., Formspree/Netlify Forms) later without changing the layout.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> Thomas C. Gifford · <span class="muted">Last updated <span id="updated"></span></span></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('updated').textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
